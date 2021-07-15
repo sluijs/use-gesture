@@ -35,6 +35,7 @@
   ],
   "homepage": "https://use-gesture.netlify.app",
   "dependencies": {
-    "@use-gesture/core": "^10.0.0-beta.21"
+    "@use-gesture/core": "^10.0.0-beta.21",
+    "husky": "7"
   }
 }
