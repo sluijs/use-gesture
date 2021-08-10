@@ -9,12 +9,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@use-gesture/vanilla": "file:../packages/vanilla",
+    "@use-gesture/react": "file:../packages/react",
     "@leva-ui/plugin-spring": "*",
     "@react-spring/web": "^9.2.3",
     "@react-three/drei": "^4.1.4",
     "@react-three/fiber": "^6.2.2",
-    "@use-gesture/react": "*",
-    "@use-gesture/vanilla": "*",
+    "husky": "^7.0.1",
     "leva": "*",
     "lodash-move": "^1.1.1",
     "lodash.clamp": "^4.0.3",

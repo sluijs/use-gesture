@@ -26,7 +26,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "size": "size-limit",
-    "size:analyze": "size-limit --why"
+    "size:analyze": "size-limit --why",
+    "prepare": "husky install"
   },
   "size-limit": [
     {
@@ -103,7 +104,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-testing-library": "^4.6.0",
-    "husky": "^6.0.0",
+    "husky": "*",
     "jest": "^27.0.6",
     "jest-chain": "^1.1.5",
     "patch-package": "^6.4.7",
